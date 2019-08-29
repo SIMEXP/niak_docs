@@ -50,6 +50,9 @@ exclude_patterns = []
 #
 html_theme = 'sphinx_rtd_theme'
 
+# tab name
+html_short_title = 'NIAK'
+
 # The logo
 html_logo = 'angelniak.png'
 
