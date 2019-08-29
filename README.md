@@ -3,6 +3,5 @@ The neuroimaging analysis kit (NIAK) is a library of pipelines for the preproces
 [<img src="https://raw.githubusercontent.com/SIMEXP/niak_manual/master/website/logo_unf.jpg" width="120px" />](http://www.unf-montreal.ca/)
 [<img src="https://raw.githubusercontent.com/SIMEXP/niak_manual/master/website/logo_criugm.jpg" width="130px" />](http://www.criugm.qc.ca/)
 [<img src="https://raw.githubusercontent.com/SIMEXP/niak_manual/master/website/logo_udm.jpg" width="120px" />](http://www.umontreal.ca/)
-[<img src="https://raw.githubusercontent.com/SIMEXP/niak_manual/master/website/logo_diro.jpg" width="120px" />](http://www.iro.umontreal.ca/)
 
 If you have a question, please search or post in the [forum >](http://www.nitrc.org/forum/forum.php?forum_id=1821).
