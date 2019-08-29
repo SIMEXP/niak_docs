@@ -1,8 +1,5 @@
 .. include:: OVERVIEW.rst
 
-Contents
-********
-
 .. toctree::
   :maxdepth: 1
   :caption: Contents
