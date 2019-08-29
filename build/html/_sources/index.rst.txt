@@ -1,17 +1,18 @@
-Welcome to NIAK's documentation!
-================================
+.. include:: OVERVIEW.rst
+
+Contents
+********
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+  :maxdepth: 1
+  :caption: Contents
 
-   OVERVIEW
-   INSTALLATION
-   PREPROCESSING
-   CONNECTOME
+  INSTALLATION
+  PREPROCESSING
+  CONNECTOME
 
 Indices and tables
-==================
+******************
 
 * :ref:`genindex`
 * :ref:`modindex`
