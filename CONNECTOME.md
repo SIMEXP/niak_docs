@@ -62,7 +62,7 @@ Example 2, string and numeric labels:
 ```
 In this case, the index refers to the number associated with one parcel. The labels will be attached. With both methods, the first row does not really matter. It is still important that the row is present, and that the intersection of first column and first row is left empty. If two rows are associated with the same parcel, the pipeline will throw an error. This can occur in particular with method 1.
 
-# Overview of the pipeline
+## Workflow 
 
 The main steps of the `connectome` pipeline are the following:
 

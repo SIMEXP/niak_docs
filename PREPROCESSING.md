@@ -11,7 +11,7 @@ The argument `files_in` is a structure describing how the dataset is organized, 
  niak_pipeline_fmri_preprocess(files_in,opt)
 ```
 
-The structure `files_in` has an arbitrary number of fields, each one coding for a subject. Each subject field itself has two subfields `fmri` (describing all fMRI data available for this subject) and `anat` (describing one T1 data available for this subject). The `fmri` data field can have an arbitrary number of session subfields. A session correspond to a single acquisition of a single subject where only small movements are expected between brain volumes. Multiple runs are typically acquired within one session. 
+The structure `files_in` has an arbitrary number of fields, each one coding for a subject. Each subject field itself has two subfields `fmri` (describing all fMRI data available for this subject) and `anat` (describing one T1 data available for this subject). The `fmri` data field can have an arbitrary number of session subfields. A session correspond to a single acquisition of a single subject where only small movements are expected between brain volumes. Multiple runs are typically acquired within one session.
 ```matlab
 %% Subject 1
 % T1 scan
@@ -24,7 +24,7 @@ files_in.subject1.fmri.session1.motor = ...
 files_in.subject1.fmri.session1.rest = ...
    '/home/pbellec/demo_niak/func_rest_subject1.mnc';  
 ```
-Labels for subjects, sessions and runs are arbitrary. To use special characters, for example a `-`,  write `files_in.('subject-1')` instead of `files_in.subject-1`. 
+Labels for subjects, sessions and runs are arbitrary. To use special characters, for example a `-`,  write `files_in.('subject-1')` instead of `files_in.subject-1`.
 
 ## General options
 
